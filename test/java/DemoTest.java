@@ -15,4 +15,29 @@ public class DemoTest {
     }
 
 
+	@Test
+	public void TestIsNOTTriangle1() {
+		assertFalse(Demo.isTriangle(30, 10, 40));
+   }
+
+   @Test
+	public void TestIsNOTTriangle2() {
+		assertFalse(Demo.isTriangle(10, 30, 40));
+   }
+
+      @Test
+	public void TestIsNOTTriangle3() {
+		assertFalse(Demo.isTriangle(10, 40, 30));
+   }
+
+	@Test
+	public void TestIsNOTTriangle4() {
+		assertFalse(Demo.isTriangle(-3, 10, 20));
+    }
+
+    @Test
+	public void TestIsNOTTriangle5() {
+		assertFalse(Demo.isTriangle(0, 10, 20));
+    }
+
 }
