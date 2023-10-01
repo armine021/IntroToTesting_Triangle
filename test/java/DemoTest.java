@@ -61,11 +61,11 @@ public class DemoTest {
 
   @Test
 	public void TestIsNOTTriangle9() {
-		assertFalse(Demo.isTriangle(1.4, 10.3, 20));
+		assertFalse(Demo.isTriangle(1, 10.3, 20));
     }
 
   @Test
 	public void TestIsNOTTriangle10() {
-		assertFalse(Demo.isTriangle(1.4, 10, 20.7));
+		assertFalse(Demo.isTriangle(1, 10, 20.7));
     }
 }
